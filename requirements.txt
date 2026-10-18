@@ -1,0 +1,13 @@
+# Wheel CUDA 12.6. O versionamento com +cu126 evita o wheel genérico do PyPI.
+# GPU Turing ou mais nova (inclui RTX 30/40/50). O runtime CUDA vem no wheel;
+# basta um driver NVIDIA compatível com CUDA 12.6 ou mais recente.
+# Para CUDA 13.2, troque o índice e os pins conforme o README.
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+torch==2.14.1+cu126
+torchvision==0.29.1+cu126
+numpy==2.5.2
+pillow==12.3.0
+gradio==6.29.1
+matplotlib==3.11.2
+plotly==6.9.0

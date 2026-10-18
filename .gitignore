@@ -1,0 +1,65 @@
+# Ambiente e dependências instaladas
+.venv/
+venv/
+env/
+ENV/
+
+# Bytecode e pacotes gerados
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Testes, tipo e cobertura
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+secrets.json
+
+# Pesos, caches de modelo e saídas de treino
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.safetensors
+checkpoints/
+hub/
+.cache/
+wandb/
+runs/
+lightning_logs/
+
+# Interface e artefatos locais da bancada
+.gradio/
+flagged/
+_check_cam.png
+_cam_preview/
+*.log
+
+# Notebooks e editores
+.ipynb_checkpoints/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
